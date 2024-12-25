@@ -4,11 +4,11 @@ Model used: BART-large-CNN
 
 Token Size: 1024
 
-The Challenge: 
+***The Challenge:***
 
 Summarizing complex research papers poses a unique challenge due to their length and intricate context. Traditional large language models (LLMs) are optimized for shorter texts and often struggle with the extensive context required for academic content due to their limited context-window. While newer models like Longformer can handle longer contexts, they are resource-intensive, difficult to fine-tune, and costly.
 
-Highlights of the cost-effective approach presented in my dissertation:
+***Highlights of the cost-effective approach presented in my dissertation:***
 
 • Fine-tuned a small-context LLM (specifically the BART-large-CNN model) to understand research papers better. This is more efficient and less computationally demanding than training long-context models, making it an ideal solution for time and resource-constrained environments.
 
@@ -16,4 +16,4 @@ Highlights of the cost-effective approach presented in my dissertation:
 
 • Compare its performance to long-context models like Longformer using ROUGE metrics.
 
-The goal? To prove that small-context LLMs, with the right strategies, can rival (or beat!) their long-context counterparts. 
+****The goal?*** To prove that small-context LLMs, with the right strategies, can rival (or beat!) their long-context counterparts.*
